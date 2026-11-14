@@ -1,0 +1,47 @@
+{
+ "cats": {
+  "genai": [
+   "Kling",
+   "Google Veo / Gemini Omni",
+   "Runway",
+   "Seedance",
+   "MiniMax H3",
+   "Wan",
+   "料金・クレジットの変更"
+  ],
+  "spatial": [
+   "プロジェクションマッピング 新作",
+   "イマーシブ展示",
+   "寺社・城・歴史的建築への投影",
+   "ナイトタイムエコノミー",
+   "ライトフェスティバル"
+  ],
+  "tools": [
+   "After Effects",
+   "Premiere Pro",
+   "TouchDesigner",
+   "ComfyUI"
+  ],
+  "studio": [
+   "チームラボ",
+   "ネイキッド",
+   "WOW",
+   "ライゾマティクス",
+   "一旗",
+   "Moment Factory",
+   "d'strict"
+  ]
+ },
+ "extra": [
+  "立花幻想夜",
+  "福厳寺 プロジェクションマッピング"
+ ],
+ "areas": [
+  "kyushu",
+  "kanto",
+  "japan",
+  "overseas"
+ ],
+ "memo": "",
+ "updatedAt": "2026-11-14T02:20:00.000Z"
+}

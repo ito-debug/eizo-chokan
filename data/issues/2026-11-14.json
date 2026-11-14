@@ -1,0 +1,144 @@
+{
+ "date": "2026-11-14",
+ "generatedAt": "2026-11-14T02:20:00.000Z",
+ "lead": "今日は東京ビッグサイトで、東京国際プロジェクションマッピングアワードの当日です。ツールではAfter Effects 27.0が公開され、Kling 4.0はAPI側で使える範囲が広がりました。来週はInter BEE（11/18〜20）と都庁の新作上映（11/20〜）が続きます。",
+ "items": [
+  {
+   "id": "20261114-01",
+   "cat": "genai",
+   "top": true,
+   "title": "Kling 4.0、APIで使える範囲が広がる",
+   "summary": "10月15日にアプリで全ユーザーに公開されたKling 4.0（1回の生成が最長30秒、キーフレーム最大10枚、参照素材は合計15点まで）が、11月6日までに開発者向けAPIとfal.aiの各エンドポイントでも使えるようになったと報じられています。10bit HDR出力と最長2分への延長は「近日対応」のままです。",
+   "memo": "30秒＋中間キーフレームで、長尺カットの継ぎ目を減らせる可能性があります。ただしキーフレームは被写体の一貫性までは保証しないので、最終フレームの目視確認は必要です。HDRと2分延長は未提供なので、前提にしないでください。",
+   "source": "RefVid（11/6確認の記載）／Kling AIの10/16付リリース",
+   "url": "https://refvid.com/ja/kling-4-release-date",
+   "published": "2026-11-06",
+   "checked": "secondary",
+   "image": "https://refvid.com/media/showcase/kling4/mia-kitchen.jpg"
+  },
+  {
+   "id": "20261114-02",
+   "cat": "genai",
+   "title": "GoogleのVeo 3.1プレビュー版IDが停止、後継はGemini Omni系",
+   "summary": "Gemini APIで、Veo 3.1のプレビュー版モデルIDが10月22日に停止しました。後継としてGemini Omni系のFlashモデルが案内されています。後継の版数（1.1か1.2か）は記事の中でも食い違っているので、Googleの公式ページでの確認が必要です。",
+   "memo": "外部サービス経由でVeoを使っている場合、見た目は同じまま生成だけ通らなくなることがあります。使っているサービスがどのモデルIDを呼んでいるかを一度確かめておくと安全です。",
+   "source": "Everypixel Journal",
+   "url": "https://journal.everypixel.com/ai-image-video-news-october-early-november-2026",
+   "published": "2026-11-10",
+   "checked": "secondary"
+  },
+  {
+   "id": "20261114-03",
+   "cat": "genai",
+   "title": "モデル比較表：オープンウェイトのMiniMax H3が上位3位に",
+   "summary": "11月13日付の比較記事によると、音声付き動画のブラインド投票ランキングでオープンウェイトのMiniMax H3が3位に入り、Veo 3.1はKling 3.0を下回りました。Runway Gen-4.5とSora 2はこのランキングに載っておらず、比較の対象外です。",
+   "memo": "順位は一般の投票にもとづくもので、投影用途での評価ではありません。手元のPCで動かせる選択肢の候補として名前を覚えておく程度で十分です。必要なVRAMは未確認です。",
+   "source": "MarkTechPost",
+   "url": "https://marktechpost.com/2026/11/13/best-ai-video-generation-models-2026",
+   "published": "2026-11-13",
+   "checked": "secondary"
+  },
+  {
+   "id": "20261114-04",
+   "cat": "genai",
+   "title": "Runway：開発者向けにKling 4.0 Flashなどを追加、ロボット向けモデルも公開",
+   "summary": "Runway Devに11月5日、Kling 4.0 FlashとGemini Omni 1.2 Flashが追加されました。11月11日にはロボット制御向けのモデルPraxis-1がApache 2.0で公開されていますが、これは映像制作機能の更新ではありません。",
+   "source": "Releasebot／eWeek（11/12）",
+   "url": "https://releasebot.io/updates/runwayai",
+   "published": "2026-11-11",
+   "checked": "secondary"
+  },
+  {
+   "id": "20261114-05",
+   "cat": "tools",
+   "top": true,
+   "title": "After Effects 27.0（2026年11月リリース）が公開",
+   "summary": "11月10日公開。文章で指示して操作の自動化やエクスプレッションの生成ができるAIアシスタントが入りました。3Dではテキストとシェイプにマテリアルを適用でき、レイヤーをマテリアルの素材として使えます。自動保存は、手動保存でタイマーがリセットされなくなり、名前を付けていないプロジェクトでも働きます。クラッシュ後の再起動時に、直近の自動保存を開くかどうかを聞いてくれます。",
+   "memo": "対応OSはWindows 11とmacOS 15以降と報じられています。進行中の案件は現行バージョンのまま進め、27.0は別に入れて検証するのが安全です。",
+   "source": "Adobe リリースノート／CG Channel（11/10）",
+   "url": "https://helpx.adobe.com/after-effects/desktop/what-s-new/release-notes-after-effects.html",
+   "published": "2026-11-10",
+   "checked": "primary"
+  },
+  {
+   "id": "20261114-06",
+   "cat": "tools",
+   "title": "ComfyUI：11月10日と12日に更新",
+   "summary": "公式の更新履歴によると、11月10日の更新でSeedVR2のデコード時のメモリ使用量が下がり、動画フレームの保持も1回分に減りました。12日には一部のワークフローが読み込めない不具合が直っています。リリース追跡サイトにはKling 4.0とPika H3の動画ノード追加という記載もありますが、公式の更新履歴では確認できていません。",
+   "source": "ComfyUI Changelog",
+   "url": "https://docs.comfy.org/changelog",
+   "published": "2026-11-12",
+   "checked": "primary"
+  },
+  {
+   "id": "20261114-07",
+   "cat": "spatial",
+   "top": true,
+   "title": "東京国際プロジェクションマッピングアワード Vol.11、本日開催",
+   "summary": "東京ビッグサイトの会議棟前広場で、開場16:30、開始17:30。入場無料です。投影面はコングレスタワーの逆三角形の外壁で、横94m×縦30m。ライブ配信の有無は公式サイトのトップには書かれていません。",
+   "memo": "受賞結果と作品の公開は、明日以降の号で追います。",
+   "source": "PMA TOKYO 公式",
+   "url": "https://pma.tokyo/",
+   "published": "",
+   "checked": "primary",
+   "hero": true
+  },
+  {
+   "id": "20261114-08",
+   "cat": "spatial",
+   "title": "都庁のプロジェクションマッピングに新作、11月20日から",
+   "summary": "通年上映の「TOKYO Night & Light」に、ヘラルボニーの作家4名のアート作品を題材にした新作「Expanding distinctiveness -拡張する異彩-」が加わります。11月20日（金）から上映です。",
+   "source": "東京都 報道発表",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026110612",
+   "published": "2026-11-06",
+   "checked": "primary"
+  },
+  {
+   "id": "20261114-09",
+   "cat": "spatial",
+   "title": "鶴ヶ城プロジェクションマッピング2026、霧の演出と組み合わせて3日間",
+   "summary": "会津若松の鶴ヶ城で11月20〜22日、17:30〜21:00。天守と石垣に、会津塗や絵ろうそくなど地域の伝統文化を題材にした映像を投影し、雲海の演出を重ねます。約8分の本編を、約3分の休止をはさんで繰り返し上映。観覧無料、申込不要です。",
+   "memo": "屋外の運用ルールの書き方が参考になります。雨天でも投影し、荒天のときは一時中断または中止、と告知しています。",
+   "source": "PR TIMES（一旗）",
+   "url": "https://prtimes.jp/main/html/rd/p/000000517.000046440.html",
+   "published": "",
+   "checked": "primary"
+  },
+  {
+   "id": "20261114-10",
+   "cat": "spatial",
+   "tag": "掲載チェック",
+   "title": "「立花幻想夜 －福厳寺プロジェクションマッピング－」の紹介記事",
+   "summary": "筑後エリアの地域メディアが11月10日に掲載。柳川市の福厳寺の本堂と山門を舞台にした催しとして、11月14日〜2027年1月17日の開催を紹介しています。",
+   "source": "筑後いこい",
+   "url": "https://chikugo-ikoi.com/tachibana-gensouya-2026",
+   "published": "2026-11-10",
+   "checked": "secondary"
+  },
+  {
+   "id": "20261114-11",
+   "cat": "studio",
+   "title": "チームラボ：京都の常設展に茶寮がオープン、11月20日から",
+   "summary": "「チームラボ バイオヴォルテックス 京都」の作品《凝固した光の海》の中に、茶寮「Teahouse in a Sea of Light 一滴庵」ができます。茶を点てると作品が生まれる《共鳴する茶》も同じ日に公開です。",
+   "source": "チームラボ 公式",
+   "url": "https://www.teamlab.art/jp/e/kyoto/",
+   "published": "",
+   "checked": "primary"
+  },
+  {
+   "id": "20261114-12",
+   "cat": "studio",
+   "title": "ネイキッド：東京タワーの冬のマッピングが開催中",
+   "summary": "東京タワーのメインデッキ（高さ150m）2階北面フロアで、「TOKYO TOWER CITY LIGHT FANTASIA 2026 Winter」が2027年2月14日まで上映中。12月29日までは、放送中のテレビドラマとのコラボ映像と交互に上映されます。",
+   "source": "ネイキッド プレスリリース",
+   "url": "https://www.zaikei.co.jp/releases/3699701/",
+   "published": "2026-11-05",
+   "checked": "primary"
+  }
+ ],
+ "quiet": [
+  "TouchDesigner：公式ビルドは9月1日の2025.33230が最新のまま。新しい実験ビルドの告知はありません。",
+  "OpenAIのSora：アプリは4月、APIは9月に終了しており、後継の動画生成サービスは出ていません。"
+ ],
+ "limits": "初回の号なので、直近2週間ほどの動きをまとめています。明日からは前日との差分が中心です。海外の空間演出の新作事例と、Premiere Proの更新は今回拾えていません。X（Twitter）上の発表は調べられていません。"
+}
