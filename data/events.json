@@ -76,6 +76,21 @@
    "updatedAt": "2026-11-14T02:20:00.000Z"
   },
   {
+   "id": "teamlab-hamarikyu-2026",
+   "title": "チームラボ 浜離宮",
+   "kind": "展示",
+   "area": "kanto",
+   "place": "東京都中央区・浜離宮恩賜庭園",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "summary": "浜離宮恩賜庭園で開く夜間の野外展で、ARTE TOKYOの特別企画とされています。会期はチームラボ公式サイトの報道発表一覧で確認しました。料金、点灯時間、チケットの販売状況は未確認で、公式での確認が必要です。",
+   "source": "チームラボ 公式（報道発表一覧）",
+   "url": "https://www.teamlab.art/jp/press",
+   "checked": "primary",
+   "addedAt": "2026-11-22T22:54:22.000Z",
+   "updatedAt": "2026-11-22T22:54:22.000Z"
+  },
+  {
    "id": "xr-kaigi-2026",
    "title": "XR Kaigi 2026",
    "kind": "カンファレンス",
