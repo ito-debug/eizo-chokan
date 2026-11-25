@@ -249,12 +249,12 @@
    "place": "オランダ・アムステルダム 運河沿い",
    "start": "2026-11-26",
    "end": "2027-01-17",
-   "summary": "運河沿いに約20点の光の作品が並びます。点灯は毎日16:30〜23:00。今年は新しいルートになります。",
+   "summary": "運河沿いに約20点の光の作品が並び、点灯は毎日16:30〜23:00と書かれています（以前の公式ページでの確認）。公式の第15回ページ（11月26日確認）では、会期が2026年11月26日〜2027年1月17日、市内中心部の新しいルートで、作品は水上・頭上・水辺に置かれ、徒歩・自転車・クルーズ・食事と組み合わせて楽しめると書かれています。Light Nightsは11月26日、12月12日、12月19日の夜です。このページに点灯時間と作品数の記載はなく、チケット料金の金額も載っていません。",
    "source": "Amsterdam Light Festival 公式",
    "url": "https://amsterdamlightfestival.com/en/dates-hours",
    "checked": "primary",
    "addedAt": "2026-11-14T02:20:00.000Z",
-   "updatedAt": "2026-11-14T02:20:00.000Z"
+   "updatedAt": "2026-11-25T22:55:16.000Z"
   },
   {
    "id": "fete-des-lumieres-2026",
@@ -345,6 +345,38 @@
    "checked": "secondary",
    "addedAt": "2026-11-23T22:59:27.000Z",
    "updatedAt": "2026-11-23T22:59:27.000Z"
+  },
+  {
+   "id": "hiroshima-castle-yoimeguri-2026",
+   "title": "広島城 宵めぐり 2026（Hiroshima Castle Winter Wander）",
+   "kind": "上映",
+   "area": "japan",
+   "place": "広島市・広島城",
+   "start": "2026-12-18",
+   "end": "2027-01-11",
+   "summary": "17:30〜21:00。12月31日〜1月3日は除きます。観覧無料で、事前申込は不要です。天守へのプロジェクションマッピングは初めてと書かれています。ほかに、表御門と石垣への映像投影（「鯉城」にちなんだデジタルアニメーション、厳島神社を描いた浮世絵の映像）と、御門橋・本丸のライトアップがあります。広島市の報道資料（11月2日付）には、詳細は後日改めて発表される予定と書かれています。主催の明記はなく、発表元は広島市の観光政策部です。",
+   "url": "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1054222/1054696.html",
+   "source": "広島市 報道資料",
+   "checked": "primary",
+   "image": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/054/696/picture.png",
+   "addedAt": "2026-11-25T22:55:16.000Z",
+   "updatedAt": "2026-11-25T22:55:16.000Z"
+  },
+  {
+   "id": "teamlab-kyoto-teahouse-ittekian",
+   "title": "チームラボ京都 茶寮「Teahouse in a Sea of Light 一滴庵」",
+   "kind": "展示",
+   "area": "japan",
+   "place": "京都・チームラボ バイオヴォルテックス 京都（作品《凝固した光の海》の中）",
+   "start": "2026-11-20",
+   "end": "",
+   "summary": "チームラボ公式の報道発表（10月16日付）に、11月20日（金）オープンと書かれています。点てた茶が作品になり、周りの茶や光の海と影響し合う体験で、併設の《共鳴する茶》では茶が固有のリズムで光り、音色を奏でます。終了日が確認できないため end は空にしています。営業時間、料金、予約の要否はページに載っておらず、実際に開店したかも今回は確認していません。公式での確認が必要です。",
+   "url": "https://www.teamlab.art/jp/press/kyoto261016/",
+   "source": "チームラボ 公式（報道発表）",
+   "checked": "primary",
+   "image": "https://teamlab-site.imagewave.pictures/b5EBo9Uo-OK6SM09ZTkEZQ/32a55044-0951-4789-0df4-9c82e30bb000/width=1200,format=jpeg",
+   "addedAt": "2026-11-25T22:55:16.000Z",
+   "updatedAt": "2026-11-25T22:55:16.000Z"
   }
  ]
 }
