@@ -1,21 +1,6 @@
 {
  "events": [
   {
-   "id": "pma-tokyo-vol11",
-   "title": "東京国際プロジェクションマッピングアワード Vol.11",
-   "kind": "アワード",
-   "area": "kanto",
-   "place": "東京ビッグサイト 会議棟前広場",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "summary": "開場16:30、開始17:30。入場無料。コングレスタワーの逆三角形の外壁（横94m×縦30m）に投影するプロジェクションマッピングのコンテストです。",
-   "source": "PMA TOKYO 公式",
-   "url": "https://pma.tokyo/",
-   "checked": "primary",
-   "addedAt": "2026-11-14T02:20:00.000Z",
-   "updatedAt": "2026-11-14T02:20:00.000Z"
-  },
-  {
    "id": "taap-live-2026",
    "title": "TAAP Live 2026",
    "kind": "展示",
@@ -393,6 +378,37 @@
    "image": "https://happyell.co.jp/wp-content/uploads/2026/10/osaka-chuo-pm-2026-1.jpg",
    "addedAt": "2026-11-26T22:54:41.000Z",
    "updatedAt": "2026-11-26T22:54:41.000Z"
+  },
+  {
+   "id": "arte-museum-nagoya",
+   "title": "Arte Museum Nagoya（アルテミュージアム ナゴヤ）",
+   "kind": "展示",
+   "area": "japan",
+   "place": "愛知県知多市新舞子（名鉄常滑線 新舞子駅から徒歩約3分）",
+   "start": "2026-11-18",
+   "end": "",
+   "summary": "ウォーカープラスの記事（2026年10月15日付）によると、韓国のd'strictが手がける「Arte Museum」の日本初の拠点で、世界9館目として2026年11月18日（水）にグランドオープンとされています。所在地は知多市新舞子字大瀬8-22、10:00〜20:00（最終入場18:30）、年中無休で、建物面積は約5,000㎡、17の没入型アートスペースと18作品、併設カフェがあると書かれています。記事に料金と予約の要否の記載はなく、チケットは記事内のリンク先（Feverの販売ページ）で扱うとだけあります。開業前の記事で、実際に開業したか、終了日があるかは確認できておらず（end は空）、公式での確認が必要です。",
+   "url": "https://www.walkerplus.com/article/1445822/",
+   "source": "ウォーカープラス",
+   "checked": "secondary",
+   "image": "https://news.walkerplus.com/article/1445822/18709124_615.jpg",
+   "addedAt": "2026-11-27T22:55:32.000Z",
+   "updatedAt": "2026-11-27T22:55:32.000Z"
+  },
+  {
+   "id": "ancestra-lumina-montreal",
+   "title": "Ancestra Lumina（モントリオール、Moment Factory）",
+   "kind": "展示",
+   "area": "overseas",
+   "place": "カナダ・モントリオール Cimetière Notre-Dame-des-Neiges（4601 chemin de la Côte-des-Neiges）",
+   "start": "2026-11-18",
+   "end": "",
+   "summary": "Narcityの記事（メタデータ上は2026年10月15日付。本文末には5月28日の初回公開から更新されたとの注記があり、日付が食い違っています）によると、Moment Factory制作の夜間の光のインスタレーションで、墓地内の約2kmのルートに8つの没入型ステーションがあり、光・投影・アーカイブ映像・音響で、この地の建設者たちをたたえる内容です。11月18日から開催で、終了日は「1月23日」とあり、年は「2026」と書かれていますが、開始日と整合しないため確認できておらず、end は空にしています。料金は大人32ドル、5〜16歳16ドル、17〜22歳の学生27ドルとあり（通貨は本文の「$」表記のみ）、チケットは販売中と書かれています。開場時間の記載はなく、運営側の公式ページでの確認が必要です。",
+   "url": "https://www.narcity.com/fr/montreal/montreal-nouveau-parcours-lumineux-2-km-2026",
+   "source": "Narcity",
+   "checked": "secondary",
+   "addedAt": "2026-11-27T22:55:32.000Z",
+   "updatedAt": "2026-11-27T22:55:32.000Z"
   }
  ]
 }
